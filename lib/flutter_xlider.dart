@@ -200,7 +200,7 @@ class _FlutterSliderState extends State<FlutterSlider> with TickerProviderStateM
   bool _rightTapAndSlide = false;
   bool _trackBarSlideOnDragStartedCalled = false;
 
-  bool _isFirstTap = false;
+  bool _isFirstTap = true;
 
   @override
   void initState() {
